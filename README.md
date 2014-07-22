@@ -1,4 +1,4 @@
-latte-contrastYIQ
+latte-contrast-yiq
 ===============
 
 Plugin for Nette. Default usage is for Latte templates. From RGB color return contrast color black/white
@@ -14,7 +14,7 @@ Installation
            // ...
            "require": {
                // ...
-			   "venca-x/latte-contrastYIQ": "@dev",
+			   "venca-x/latte-contrast-yiq": "@dev",
            }
         }
 
