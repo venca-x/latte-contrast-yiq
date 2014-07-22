@@ -1,5 +1,5 @@
 {
-    "name": "venca-x/latte-contrastYIQ",
+    "name": "venca-x/latte-contrast-yiq",
     "description": "Plugin for Nette. Default usage is for Latte templates. From RGB color return contrast color black/white",
     "license": "MIT",
     "authors": [
