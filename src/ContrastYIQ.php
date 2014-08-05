@@ -5,7 +5,7 @@
  * @author vEnCa-X <venca-x@seznam.cz>
  * @version 0.1
  */
-class ContrastYIQ
+class ContrastYIQ extends Nette\Object
 {
     /**
      * From RGB color return contrast color black/white
