@@ -8,11 +8,10 @@
             "email": "venca-x@seznam.cz"
         }
     ],
-    "minimum-stability": "dev",
     "require-dev": {
         "nette/tester": "@dev"
     },
     "autoload": {
         "classmap": ["src/"]
-    }
+    }	
 }
