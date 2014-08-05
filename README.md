@@ -42,6 +42,6 @@ Usage
 -------------
 
 ```php
-{$o->color|createTemplate}
+{$o->color|contrastYIQ}
 
 ```
