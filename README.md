@@ -8,7 +8,12 @@ Installation
 
  1. Add the bundle to your dependencies:
 
-        // composer.json
+   Install with composer:
+
+		composer require venca-x/latte-contrast-yiq:dev-master
+		
+		
+	// composer.json
 
         {
            // ...
