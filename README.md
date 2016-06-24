@@ -10,7 +10,7 @@ Installation
 
    Install with composer:
 
-		composer require venca-x/latte-contrast-yiq:dev-master
+		composer require venca-x/latte-contrast-yiq:~0.2
 		
 		
 	// composer.json
@@ -34,11 +34,14 @@ BasePresenter.php
 
 ```php
 
-protected function createTemplate( $class = NULL )
+protected function beforeRender()
 {
-    $template = parent::createTemplate( $class );
-    $template->registerHelper( 'contrastYIQ', callback( new \ContrastYIQ(), 'getContrastYIQ' ) );
-    return $template;
+    parent::beforeRender();
+
+    $this->template->addFilter('contrastYIQ', function ($text) {
+        $contrastYIQ = new \ContrastYIQ();
+        return $contrastYIQ->getContrastYIQ($text);
+    });
 }
 
 ```
